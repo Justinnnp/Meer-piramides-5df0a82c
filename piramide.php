@@ -9,11 +9,11 @@
 <body>
 <table cellspacing="0px" cellpadding="0px">
     <?php
-        for ($i = 1; $i <= 10; $i++) {
-            echo "<tr>";
+    for ($i = 1; $i <= 10; $i++) {
+        echo "<tr>";
 
-            for ($j = 1; $j <= $i; $j++) {
-                echo "<td height=30px width=30px bgcolor= #00000></td>";
+        for ($j = 1; $j <= $i; $j++) {
+            echo "<td height=30px width=30px bgcolor= #00000></td>";
             }
         }
 ?>
