@@ -9,7 +9,7 @@
 <body>
 <table cellspacing="0px" cellpadding="0px">
     <?php
-        for ($i = 1; $i <= 8; $i++) {
+        for ($i = 1; $i <= 10; $i++) {
             echo "<tr>";
 
             for ($j = 1; $j <= $i; $j++) {
